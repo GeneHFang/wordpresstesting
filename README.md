@@ -1,0 +1,1 @@
+This repo is for my personal learning of PHP and its use in wordpress.
