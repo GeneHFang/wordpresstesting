@@ -13,4 +13,10 @@ function resource_files(){
 
     add_action('wp_enqueue_scripts', 'resource_files');
 
+function website_features(){
+    add_theme_support('title-tag');
+}
+
+
+    add_action('after_setup_theme', 'website_features');
 ?>
